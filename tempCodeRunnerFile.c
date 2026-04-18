@@ -4,7 +4,8 @@ int main() {
     int num;
     printf("Enter the number: ");
     scanf("%d", &num);
-    int temp1=num,temp2=temp1;
+    int temp1=num;
+    int temp2=temp1;
     if (num<0) {
         printf("Enter a positive integer.");
         return -1;
